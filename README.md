@@ -1,4 +1,4 @@
-## DISCLAIMER: Demo is not fully functional in Safari, use Chrome (it's a feature)
+*DISCLAIMER: Demo is not fully functional in Safari, use Chrome (it's a feature)*
 
 ## What need does HYPER satisfy?
 
