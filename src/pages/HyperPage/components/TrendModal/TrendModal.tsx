@@ -76,7 +76,7 @@ export const TrendModal = ({ trend, setSelectedTrend }: any) => {
         condition={trend.tickers && trend.tickers.length > 0}
         then={() => (
           <>
-            <Typography.Title level={5}>Related stocks</Typography.Title>
+            <Typography.Title level={5} style={{marginTop: 28}}>Related stocks</Typography.Title>
             <List
               itemLayout="horizontal"
               dataSource={trend.tickers}

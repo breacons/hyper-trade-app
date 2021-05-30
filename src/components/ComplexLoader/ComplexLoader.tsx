@@ -55,7 +55,7 @@ export const ComplexLoader = ({ children, labels }: ComplexLoaderProps) => {
     };
   }, []);
 
-  const transitions = useTransition(true || Math.min(...progress) === 100, {
+  const transitions = useTransition(Math.min(...progress) === 100, {
     from: { position: 'absolute', opacity: 0 },
     enter: { opacity: 1 },
     leave: { opacity: 0 },

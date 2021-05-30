@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+## DISCLAIMER: Demo is not fully functional in Safari, use Chrome (it's a feature)
+
+## What need does HYPER satisfy?
+
+If you follow any stock market, most likely you also had at least once the thought to yourself: **why on Earth didn't I invest back when it was a fraction of today's share**?  It can be painful, but we do it over and over again.
+It takes a lot of time and energy to always research and be up to date regarding high potential stocks. At other times, one's too careful with stocks riskier than usual and end up not investing at all.
+
+HYPER's services cater to both problems.
+1. Trend analysis shows which topics are worth getting into, and which are on the downside.
+2. HyperTrade carries out automated trading with the monthly amount you choose. No more stressing or researching.
+
+## How does HYPER work?
+
+The underlying principle behind HYPER:
+It scrapes social media platforms like Reddit, Twitter and TikTok, and feeds data into an NLP pre-trained BERT model. Thanks to its bidirectional characteristic and the datasets it pre-trained on, BERT is one of the most sophisticated models out there currently. The identified keywords’ frequencies are stored and analyzed based on a historical approach, therefore the model can determine the diretion the trend is moving and can select the stage a certain topic falls into. The 5 stages are: High potential/Around its peak/Dangerous territories/Rebouncing in process/Steady growth.
+
+Each datapoint on the graph represents a topic, which has a summary view containing a short description, possible risks, social media coverage and relevant stocks to follow.
+
+There is also the possibility of HyperTrade, which acts as an automatized trading service, which can make trades within the budget of the chosen monthly amounts. For people without the time or expertise to make high risk-high reward investments, HyperTrade offers a stress-free and simple alternative to having an early entry in high potential stocks.
+
+The prototype was developed in React and the live demo can be found at (use Chrome for full functionality): https://hyper-trade-app.web.app
+
+## The team
+
+We are two friends with a few sleepless nights in hackathons behind our backs.
+Marton Elődi is an experienced Product Developer, while Peter Lakatos is a Data Scientist. Both completed their MSc in the EIT Digital Double-degree program.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
