@@ -54,6 +54,8 @@ export const annotations = [
     title: 'Vaccines',
     subTitle: '#covid #mRNS #immunity',
     tickers: ['BTNX', 'MRNA', 'ABBV'],
+    description:
+      'A COVID‑19 vaccine is a vaccine intended to provide acquired immunity against severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2), the virus causing coronavirus disease 2019 (COVID‑19). In Phase III trials, several COVID‑19 vaccines have demonstrated efficacy as high as 95% in preventing symptomatic COVID‑19 infections. ',
     x: 308,
     y: 390,
     dx: -100,
@@ -74,6 +76,8 @@ export const annotations = [
     id: uuid(),
     title: 'Consumer Drones',
     subTitle: '#selfie #aerial',
+    description:
+      'An unmanned aerial vehicle (UAV) or uncrewed aerial vehicle, commonly known as a drone, is an aircraft without any human pilot, crew or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which include additionally a ground-based controller and a system of communications with the UAV.',
     x: 470,
     y: 115,
     dx: -100,
@@ -84,6 +88,8 @@ export const annotations = [
     id: uuid(),
     title: 'Low Budget Airlines',
     subTitle: '#onboard #travel',
+    description:
+      'A low-cost carrier or low-cost airline (occasionally referred to as no-frills, budget or discount carrier or airline, and abbreviated as LCC) is an airline that is operated with an especially high emphasis on minimizing operating costs and without some of the traditional services and amenities provided in the fare, resulting in lower fares and fewer comforts. To make up for revenue lost in decreased ticket prices, the airline may charge extra fees – such as for carry-on baggage.',
     x: 570,
     y: 82,
     dx: 250,
@@ -95,6 +101,9 @@ export const annotations = [
     title: 'Crypto',
     subTitle: '#blockchain #defi #mining',
     tickers: ['BTC', 'ETH'],
+    description:
+      'A cryptocurrency, crypto-currency, or crypto is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership. It typically does not exist in physical form (like paper money) and is typically not issued by a central authority. ',
+
     x: 870,
     y: 135,
     dx: -100,
@@ -106,6 +115,8 @@ export const annotations = [
     title: 'Electric Vehicles',
     subTitle: '#battery #gogreen #zeroemission',
     tickers: ['CCIV', 'LI', 'XPEV'],
+    description:
+      'An electric vehicle (EV) is a vehicle that uses one or more electric motors or traction motors for propulsion. An electric vehicle may be powered through a collector system by electricity from off-vehicle sources, or may be self-contained with a battery, solar panels, fuel cells or an electric generator to convert fuel to electricity. EVs include, but are not limited to, road and rail vehicles, surface and underwater vessels, electric aircraft and electric spacecraft.',
     x: 730,
     y: 110,
     dx: -100,
@@ -117,6 +128,8 @@ export const annotations = [
     title: 'Digital banking',
     subTitle: '#realtime #virtualcards #microloans',
     tickers: ['SQ', 'LMND', 'ALLY'],
+    description:
+      'Digital banking is part of the broader context for the move to online banking, where banking services are delivered over the internet. The shift from traditional to digital banking has been gradual and remains ongoing, and is constituted by differing degrees of banking service digitization. Digital banking involves high levels of process automation and web-based services and may include APIs enabling cross-institutional service composition to deliver banking products and provide transactions.',
     x: 930,
     y: 144,
     dx: -100,
@@ -128,6 +141,8 @@ export const annotations = [
     title: '3D printing',
     subTitle: '#prototyping #SLS #stereolithography',
     tickers: ['PRLB', 'XONE', 'NNDM'],
+    description:
+      '3D printing, or additive manufacturing, is the construction of a three-dimensional object from a CAD model or a digital 3D model. The term "3D printing" can refer to a variety of processes in which material is deposited, joined or solidified under computer control to create a three-dimensional object, with material being added together (such as plastics, liquids or powder grains being fused together), typically layer by layer.',
     x: 1050,
     y: 158,
     dx: -100,
@@ -139,6 +154,8 @@ export const annotations = [
     title: 'Virtual Reality',
     subTitle: '#simulation #AR #metaverse',
     tickers: ['QCOM', 'LITE'],
+    description:
+      'Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world. Applications of virtual reality include entertainment (e.g. video games), education (e.g. medical or military training) and business (e.g. virtual meetings). Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR.',
     x: 1150,
     y: 165,
     dx: -100,
